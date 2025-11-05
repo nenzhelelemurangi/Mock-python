@@ -11,7 +11,11 @@ Example:
     add_numbers(-1, 4) -> 3
 """
 def add_numbers(a, b):
-    pass
+    a==2 or a==-1
+    b==3 or a== 4
+    sum= a+b
+    return sum
+
 
 
 # Exercise 2: Subtract Numbers
@@ -23,7 +27,12 @@ Example:
     subtract_numbers(3, 5) -> -2
 """
 def subtract_numbers(a, b):
-    pass
+    a== 5 or a==3
+    b== 3 or b==5
+
+    sum = a-b
+    return sum
+
 
 
 # Exercise 3: FruitLoop
@@ -42,7 +51,10 @@ Example:
     Loop
 """
 def fruitloop(n):
-    pass
+    list= ['1', '2', 'Fruit', '4', 'Loop', 'Fruit']
+    n = 1 + n
+    for n in list:
+        return n
 
 
 # Exercise 4: Fibonacci
@@ -66,7 +78,9 @@ Example:
     find_max([-1,-5,-3]) -> -1
 """
 def find_max(numbers: list):
-    pass
+    numbers= [1,2,3]
+    
+
 
 
 # Exercise 6: Find Minimum
@@ -78,6 +92,7 @@ Example:
     find_min([-1,-5,-3]) -> -5
 """
 def find_min(numbers: list):
+    num= [1,2,3]
     pass
 
 
@@ -98,10 +113,17 @@ Example:
 """
 class Person:
     def __init__(self, name: str, age: int):
-        pass
+        self.name=name
+        self.age=age
 
+        name="Alice"
+        age=25
+
+        p=Person("Alice",25)
+
+    
     def greet(self):
-        pass
+        print("Hello , my name is ")
 
 
 
